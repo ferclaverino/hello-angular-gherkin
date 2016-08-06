@@ -1,1 +1,5 @@
-# hello-protractor-cucumber-gherkin
+# hello-angular-gherkin
+
+```
+npm install
+```
