@@ -1,12 +1,12 @@
 Feature: Home
-    Como comprador
-    Quiero buscar teléfonos
+    As buyer
+    Want to look for phones
 
-    Scenario: Titulo en la home
-        Given Estoy en "phones"
-        Then El título es "Google Phone Gallery"
+    Scenario: Home access
+        Given I go to "phones"
+        Then title should be "Google Phone Gallery"
 
-    Scenario: Busqueda de xoom
-        Given Estoy en "phones"
-        When Yo busco "xoom"
-        Then Veo "2" resultados
+    Scenario: Search a phone
+        Given I go to "phones"
+        When I search "xoom"
+        Then results should be "2"
